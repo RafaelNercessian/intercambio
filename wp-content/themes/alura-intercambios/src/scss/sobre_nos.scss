@@ -1,0 +1,24 @@
+@import "config";
+
+.imagem-sobre-nos,
+.imagem-conteudo-blog{
+  max-width: 100%;
+  width: 100vw;
+  height: 40vh;
+  z-index: -1;
+}
+
+.conteudo{
+  margin: 0 3rem;
+  text-align: justify;
+
+  h2{
+    color: lighten($corPrimaria, 60%);
+    position: absolute;
+    margin-top: calc(calc(7rem + 65vh) / 2);
+    margin-left: calc(100vw / 3);
+    top: 0;
+    margin-bottom: 0;
+    font-size: 6em;
+  }
+}

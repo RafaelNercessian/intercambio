@@ -1,0 +1,45 @@
+@import "config";
+
+.imagem-conteudo-blog{
+  height: 55vh;
+}
+
+.blog {
+
+  h1{
+    margin-top: 3rem;
+  }
+
+  .imagem-blog {
+    height: 100%;
+  }
+
+  h2{
+    @include cor-primaria-h1;
+    font-size: 1.1rem
+  }
+
+  img{
+    padding-left: 0;
+  }
+
+  li{
+    &.row {
+      margin-bottom: 2rem;
+      border: 2px solid lighten($corPrimaria, 15%);
+      border-radius: 4px
+    }
+
+    p{
+      padding-right: 1rem;
+      color: darken($corPrimaria, 65%);
+      font-size: 0.9rem;
+    }
+
+    .autor{
+      font-weight: 600;
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+  }
+}

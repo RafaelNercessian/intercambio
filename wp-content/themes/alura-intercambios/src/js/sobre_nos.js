@@ -1,0 +1,1 @@
+import '../scss/sobre_nos.scss'

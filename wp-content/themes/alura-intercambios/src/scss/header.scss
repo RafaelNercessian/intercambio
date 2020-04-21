@@ -1,0 +1,35 @@
+@import "normalize";
+@import "config.scss";
+
+.site-header{
+  background-color: $corPrimaria;
+
+  div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+  }
+
+  nav #menu-principal{
+    display: flex;
+
+    a {
+      color: darken($corPrimaria, 60%);
+      font-size: 1.1em;
+    }
+
+    .current_page_item{
+      border-bottom: 1px solid darken($corPrimaria, 60%);
+      padding-bottom: 5px;
+    }
+
+    li{
+      margin-right: 2rem;
+    }
+
+    li:last-child{
+      margin-right: 0;
+    }
+  }
+}

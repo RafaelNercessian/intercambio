@@ -1,0 +1,53 @@
+@import "config";
+
+.formulario-pesquisa-paises {
+  margin-top: 3rem;
+  margin-left: 10%;
+  padding-left: 15px;
+  input{
+    background-color: lighten($corPrimaria,10%);
+    color: #FFF;
+    padding: 5px;
+    border-radius: 3px;
+  }
+}
+
+
+.page-destinos {
+
+  li {
+    box-sizing: content-box;
+    border: 1px solid $corPrimaria;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+  }
+
+  a {
+    position: absolute;
+    top: 15px;
+    padding: 5px;
+    color: #FFF;
+    background-color: darken($corPrimaria, 10%);
+  }
+
+  img {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .row {
+    margin: auto;
+    padding: auto;
+  }
+
+  .lista-destinos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10%;
+  }
+
+  .titulo-destino {
+    font-weight: 600;
+  }
+}
